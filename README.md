@@ -14,6 +14,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `Brief testing Guidance`
+
+This project is about ToDo List user can enter various task to to accomplished. I provide various features like :-
+1. User can enter the task in input field and Click on Add Task button to add different tasks.
+2. To complete any task user has to click on the respective task and it will get completed followed by a line over on the text.
+3. User can update the task by clicking on the pen to square icon which is situated in front of the task.
+4. User can delete the task by clicking on the dustbin Icon situated by the pen to square icon.
+5. Tasks can also be sorted in alphabetical order by clicking on the Sort Tasks button.
+6. Tasks can be filtered by searching the required task from the list and clicking on the Filter Tasks button.
+7. Tasks can also be reset to the orignal list once user click Reset button.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
