@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background: linear-gradient(90deg, #cb997e, #ddbea9, #ffe8d6);
+  font-size: 1.1rem;
+  font-family: "Quicksand", sans-serif;
+  height: 100%;
+}
+
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #6b705c;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 40%;
+  margin-top: 10rem;
+  display: block;
+  border:3px solid b7b7a4;
+  box-shadow: 10px 10px #a5a58d;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #b7b7a4;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.buttons{
+  display: flex;
+}
+.filter-input{
+  outline: none;
+  background: none;
+  border: 1px solid #b7b7a4;
+  padding: 0.5rem 1rem;
+  margin-left: 5.2rem;
+  margin-bottom: 2rem;
+  margin-top: 3px;
+  width: 200px;
+  color: #fff;
+}
+
+.filter-input .placeholder{
+  color: #ffffff4d;
+}
+
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #b7b7a4;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.sort-btn{
+  background: #b7b7a4;
+  color: #fff;
+  border: none;
+  padding: 2px;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+  margin: 3px;
+  
+}
+
+.filter-btn{
+  background: #b7b7a4;
+  color: #fff;
+  border: none;
+  padding: 2px;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+  margin: 3px;
+
+}
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #b7b7a4;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #ffe8d6;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon{
+  cursor: pointer;
+  position: absolute;
+  margin-left: 460px;
+}
+.delete-icon {
+  cursor: pointer;
+}
+
+.todo-input span{
+  font-size: 14px;
+  /* text: red; */
+}
+  
